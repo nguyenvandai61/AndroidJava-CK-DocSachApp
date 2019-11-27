@@ -16,7 +16,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_favorite">Favorite</string>
     <string name="menu_catalog">Catalog</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_setting">Settings</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 </resources>
