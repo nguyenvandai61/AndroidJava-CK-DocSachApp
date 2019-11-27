@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">READBOOK</string>
+    <string name="app_name">BOOK READER</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">RECENTLY</string>
+    <string name="tab_text_2">MY BOOKS</string>
+    <string name="title_activity_test">Test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Book Reader</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_clear_recents">Clear Recents</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_catalog">Catalog</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
 </resources>
