@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 
 import com.example.readbook.Model.Book;
 import com.example.readbook.R;
-import com.github.barteksc.pdfviewer.PDFView;
+
 
 import java.util.ArrayList;
 

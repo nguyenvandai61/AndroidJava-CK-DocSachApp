@@ -2,16 +2,23 @@ package com.example.readbook.Model;
 
 import android.graphics.Bitmap;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
     private long mId;
     private String mName;
     private String mAuthor;
     private String mPath;
     private Bitmap mImage;
+
+    public Book(){
+
+    }
+
     public Book(long mId, String mName, String mAuthor) {
         this.mId = mId;
         this.mName = mName;
-        this.mImage = mImage;
+        this.mAuthor = mAuthor;
     }
 
     public Book(long mId, String mName, Bitmap mImage) {
@@ -29,9 +36,22 @@ public class Book {
         return mName;
     }
 
-    public void setmName(String mName) {
+    public void setmName(String mName){
         this.mName = mName;
     }
+
+    public long getmId(){ return mId; }
+
+    public void setmId(long mId) {
+        this.mId = mId;
+    }
+
+    public String getmAuthor(){ return mAuthor;}
+
+    public void setmAuthor(String mAuthor){
+        this.mAuthor = mAuthor;
+    }
+
 
     public Bitmap getmImage() {
         return mImage;
