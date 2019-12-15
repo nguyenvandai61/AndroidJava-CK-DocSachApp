@@ -37,7 +37,8 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
 
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getActivity(), getActivity().getSupportFragmentManager());
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getActivity(),
+                getActivity().getSupportFragmentManager());
 
         ViewPager viewPager = root.findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
@@ -45,9 +46,11 @@ public class HomeFragment extends Fragment {
         tabs.setupWithViewPager(viewPager);
 
 
-//        PlaceholderFragment.lvBookList.setAdapter(bookAdapter);
         return root;
     }
 
-
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
 }

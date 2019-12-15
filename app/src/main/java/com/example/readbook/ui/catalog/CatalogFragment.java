@@ -35,13 +35,13 @@ public class CatalogFragment extends Fragment {
         catalogViewModel =
                 ViewModelProviders.of(this).get(CatalogViewModel.class);
         View root = inflater.inflate(R.layout.fragment_catalog, container, false);
-        final TextView textView = root.findViewById(R.id.text_catalog);
-        catalogViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+//        final TextView textView = root.findViewById(R.id.text_catalog);
+//        catalogViewModel.getText().observe(this, new Observer<String>() {
+//            @Override
+//            public void onChanged(@Nullable String s) {
+//                textView.setText(s);
+//            }
+//        });
         return root;
     }
 
